@@ -1,0 +1,156 @@
+/*start main rulez*/
+body{
+    background-color: #f4f4f4;
+    font-size: 16px;
+}
+
+/*end main rulez*/
+
+/*start login form*/
+.login{
+    width: 300px;
+    margin: 100px auto;
+}
+.login h4{
+    color: #888;
+}
+.login input{
+    margin-bottom: 10px;
+}
+.login 
+.form-control{
+    background-color: #eaeaea;
+}
+.login 
+.btn{
+    background-color: #008dde;
+}
+/*end login form*/
+
+/*start bootstrap edits*/
+/* #app-nav li a{
+    display: block;
+    color: #C69749;
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 2px;
+    text-shadow: 1.2px 1.2px 1.2px rgb(10, 102, 87);
+    text-transform: uppercase;
+    transition: 0.6s;
+  }
+  
+ #app-nav li a:hover ,.navbar-header a:hover{
+    background-color: #735F32;
+    color: #101010;
+    font-weight: bold;
+    transform: scale(0.9);
+    border-radius: 13px;
+  } */
+.manage-members img{
+    width: 50px;
+    height: 50px;
+}
+
+.navbar{
+      border-radius: 0px;
+      background-color: #495579;
+      margin-bottom: 0px;
+}
+#app-nav{
+    background-color: #495579;
+}
+#app-nav li a ,.navbar-header a{
+    display: block;
+    color: #FFFBEB;
+    text-align: center;
+    text-decoration: none;
+    word-spacing: 2px;
+    text-shadow: 1.2px 1.2px 1.2px rgb(10, 102, 87);
+    text-transform: uppercase;
+    transition: 0.6s;
+    font: message-box;
+  }
+  
+ #app-nav li a:hover ,.navbar-header a:hover{
+    background-color: #251749;
+    color: #FFFBEB;
+    font-weight: bold;
+    /* transform: scale(0.9); */
+    border-radius: 18px;
+  }
+
+/*end bootstrap edits*/
+.main-table tr:first-child th{
+    background-color: #333;
+    color: #fff;   
+}
+/*start dashboard page*/
+.home-stats .stat{
+    padding: 20px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 60px;
+}
+.home-stats .st-member{
+    background-color: #3487c2;
+}
+.home-stats .st-pending{
+    background-color: #34c2a0;
+}
+.home-stats .st-item{
+    background-color: #c2ba34;
+}
+.home-stats .st-comment{
+    background-color: #c28734;
+}
+
+.home-stats .stat a{
+    color: #fff;
+}
+.home-stats .stat a:hover{
+    text-decoration: none;
+}
+.home-stats .stat span{
+    display: block;
+    font-size: 60px;
+}
+.latest{
+    margin-top: 60px;
+}
+.latest .toggle-info{
+    color: #999;
+}
+.latest .toggle-info:hover{
+    color: #444;
+}
+.latest-users{
+    margin-bottom: 0;
+}
+/*end dashboard page*/
+
+/*start members page*/
+.activate{
+    margin-left: 5px;
+}
+/*end members page*/
+/*stat category page*/
+.categories .cat h3{
+    margin: 0 0 10px;
+}
+.categories .cat:last-of-type ~ hr{
+    display: none;
+}
+.categories .child-head{
+    margin:0 0 10px 40px;
+    color: darkgoldenrod;
+    
+}
+.categories .child-cat{
+    margin:0 0 10px 40px;
+}
+.categories .child-cat li{
+    margin-left: 20px;
+}
+
+/*end category page*/
